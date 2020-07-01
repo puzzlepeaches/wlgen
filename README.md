@@ -9,6 +9,12 @@ Script to automate building wordlists for AppSec directory/resource bruting.
 * Lists are uniqued and cleaned before output is written to a file
 * Lists can be grouped by language to hone attacks against known platforms
 
+## Installation
+
+You need PyYaml
+In my case on Mac OS X install using:
+`pip3 --user install PyYaml`
+
 ## Usage
 
 ```
