@@ -117,7 +117,7 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--langs', nargs='*', help='Language(s)')
     parser.add_argument('--lists', type=str, default="lists.yml", help='Lists yaml file')
     parser.add_argument('-o', '--output', type=str, default='discovery.txt', help='Config file to use')
-    parser.add_argument('-s', '--seclists', type=str, default="~/tools/SecLists", required=False, help='Path to SecLists')
+    parser.add_argument('-s', '--seclists', type=str, default="/usr/share/SecLists", required=False, help='Path to SecLists')
     parser.add_argument('--skip', action='store_true', help='Skip general lists', default=False)
     
     args = parser.parse_args()
