@@ -104,5 +104,3 @@ perl:
   - https://raw.githubusercontent.com/random-robbie/bruteforce-lists/master/perl-files.txt
 ruby:
   - seclists/Discovery/Web-Content/ror.txt
-test:
-  - /tmp/test.txt
