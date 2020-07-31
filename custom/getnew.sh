@@ -9,3 +9,5 @@ wget https://raw.githubusercontent.com/adamtlangley/gitscraper/branch/cleaned/fi
 
 # Getting CT lists
 git clone https://github.com/internetwache/CT_subdomains.git
+
+wget https://gist.githubusercontent.com/Techbrunch/61e9bb1b18ceedc7ad5d531b8868cc82/raw/6ce5e776e5ad1befadc402dbb3218413bb9b0a4f/golang_handlefunc_combined.txt
